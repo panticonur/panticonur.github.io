@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <title>Search powered by me</title>
         <style>
+            /*
             html,
             body {
                 font-family: Arial, sans-serif;
@@ -54,7 +55,7 @@
                 margin-bottom: 0;
                 padding-bottom: 0;
             }
-            /* Bottom-specific selectors */
+            /* Bottom-specific selectors /
             
             .cse-branding-bottom .cse-branding-logo,
             .cse-branding-bottom .cse-branding-text {
@@ -77,7 +78,7 @@
             .cse-branding-right .cse-branding-form {
                 float: left;
             }
-            /* Right-specific selectors */
+            /* Right-specific selectors /
             
             .cse-branding-right .cse-branding-logo,
             .cse-branding-right .cse-branding-text {
@@ -269,9 +270,56 @@
             .gs-promotion .gs-visibleUrl,
             .gs-promotion .gs-visibleUrl-short {
                 color: #008000;
-            }
+            }*/
             /******************************************************************************/
-			.lst.lst-tbb {
+            
+            .srp {
+                background-color: #f2f2f2;
+            }
+
+            .srp .msfo {
+                overflow: hidden
+            }
+
+            .g,
+            body,
+            html,
+            .std,
+            h1 {
+                font-size: small;
+                font-family: Roboto-Regular, HelveticaNeue, Arial, sans-serif;
+            }
+            
+            body {
+                margin: 0;
+                background: #f2f2f2;
+                font-family: Roboto-Regular, HelveticaNeue, Arial, sans-serif;
+                color: #222;
+                -webkit-text-size-adjust: none;
+            }
+            
+            body,
+            .g,
+            html,
+            .std,
+            .c h2,
+            h1,
+            #cdr_min,
+            #cdr_max,
+            .cpbb,
+            .kpbb,
+            .kprb,
+            .kpgb,
+            .kpgrb,
+            .ksb {
+                font-family: Roboto-Regular, HelveticaNeue, Arial, sans-serif;
+            }
+            
+
+
+
+            
+            .lst.lst-tbb {
                 -webkit-appearance: none;
                 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                 display: -webkit-box;
@@ -283,26 +331,29 @@
                 flex: 1 0;
                 padding-left: 16px;
             }
+            
             .lst {
-				font-size:16px;
-				color:rgba(0,0,0,.87)
-			}
-			.lst {
-				color:#000;
-				line-height:25px;
-				background-color:transparent;
-				border:none;
-				margin:0;
-				padding:0
-			}
-			.lst,.gsfi {
-				font-size:18px
-			}
-			
+                font-size: 16px;
+                color: rgba(0, 0, 0, .87)
+            }
+            
+            .lst {
+                color: #000;
+                line-height: 25px;
+                background-color: transparent;
+                border: none;
+                margin: 0;
+                padding: 0
+            }
+            
+            .lst,
+            .gsfi {
+                font-size: 18px
+            }
         </style>
     </head>
 
-    <body>
+    <body class="srp">
         <div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000;width: 100%;">
             <div class="cse-branding-form">
                 <form action="https://panticonur.github.io/search.html" id="cse-search-box">
