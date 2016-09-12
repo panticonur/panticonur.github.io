@@ -271,7 +271,22 @@
                 color: #008000;
             }
             /**************************************************************************************************************/
-            .lst.lst-tbb {
+            
+            
+			
+			.lst {
+				color:#000;
+				line-height:25px;
+				background-color:transparent;
+				border:none;
+				margin:0;
+				padding:0
+			}
+			.lst {
+				font-size:16px;
+				color:rgba(0,0,0,.87)
+			}
+			.lst.lst-tbb {
                 -webkit-appearance: none;
                 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                 display: -webkit-box;
@@ -282,9 +297,14 @@
                 -webkit-flex: 1 0;
                 flex: 1 0;
                 padding-left: 16px;
-                outline: medium none;
             }
-
+			.lst.lst-tbb.gsfi {
+				outline: medium none;
+			}
+			.lst,.gsfi {
+				font-size:18px
+			}
+			
         </style>
     </head>
 
